@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <style>
+    body{
+      background-image: url("aset/background.jpg");
+      background-size:cover ;
+      background-position: center;
+      height: 100vh;
+    }
+    .container{
+      color: white;
+    }
+    .card{
+      background-color:#040404;
+      border-color:white;
+    }
+    .testimonial-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px 15px 0 0;
+    }
+    .testimoni-card{
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1) ;
+      transition: transform 0.2s ease;
+      color: white  ;
+    }
+  </style>
+  <body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang Saya</a></li>
+              <li class="nav-item"><a class="nav-link" href="portofolio.html">Portofolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+              <li class="nav-item"><a class="nav-link active" href="test.html">Testimoni Klien</a></li>
+              <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+              <li class="nav-item"><a class="nav-link" href="galery.html">Galery</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   <div class="container my-5">
+     <h2 class="text-center mb-4 ">Testimoni Klien Kami</h2>
+     <div class="row g-4">
+       <!-- Testimoni 1 -->
+       <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1500">
+         <div class="card testimoni-card text-center p-3">
+           <img src="aset/images (1).jpeg" alt="Klien 1" class="testimonial-img">
+           <h5 class="mt-4">Andi Pratama</h5>
+           <p>CEO TechID</p>
+           <p class="card-text">"Pelayanan sangat memuaskan! Website saya tampak modern dan sangat responsif."</p>
+         </div>
+       </div>
+
+       <!-- Testimoni 2 -->
+       <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1500">
+         <div class="card testimoni-card text-center p-3">
+           <img src="aset/canva.jpg" alt="Klien 2" class="testimonial-img ">
+           <h5 class="mt-4">Siti Rahmawati</h5>
+           <p>Desainer Grafis</p>
+           <p class="card-text">"Sangat senang! Tim memahami kebutuhan desain saya dengan sangat baik."</p>
+         </div>
+       </div>
+
+       <!-- Testimoni 3 -->
+       <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1500">
+         <div class="card testimoni-card text-center p-3">
+           <img src="aset/contoh-website-yang-menggunakan-white-space.png" alt="Klien 3" class="testimonial-img ">
+           <h5 class="mt-4">Budi Santoso</h5>
+           <p>Freelancer IT</p>
+           <p class="card-text">"Website saya selesai tepat waktu, hasilnya rapi dan sesuai harapan. Recommended!"</p>
+         </div>
+       </div>
+       
+     </div>
+   </div>
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p> DIONISIUS NUKU LAPU (2123031)</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>
